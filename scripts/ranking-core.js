@@ -101,6 +101,85 @@ async function fetchJson(url, headers) {
   return JSON.parse(text);
 }
 
+async function postForm(url, body, headers) {
+  const res = await fetch(url, {
+    method: "POST",
+    headers: {
+      ...headers,
+      "content-type": "application/x-www-form-urlencoded;charset=UTF-8"
+    },
+    body: new URLSearchParams(body).toString()
+  });
+  const text = await res.text();
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+  return JSON.parse(text);
+}
+
+function assertApiOk(payload, label) {
+  if (payload?.errorCode && payload.errorCode !== 0) {
+    throw new Error(`${label}: ${payload.errorMsg || payload.errorCode}`);
+  }
+}
+
+async function fetchProcessList(config) {
+  const payload = await postForm(
+    "https://aistudio.baidu.com/studio/match/detail",
+    { matchId: config.competitionId, signupCode: 0 },
+    config.requestHeaders
+  );
+  assertApiOk(payload, "match detail");
+  const processes = payload?.result?.processList || [];
+  const findBoard = (name) => processes.find((item) => String(item.processName || "").toUpperCase().includes(name));
+  const b = findBoard("B");
+  const a = findBoard("A");
+  if (!a || !b) {
+    throw new Error(`Could not find both A and B boards in processList. Found: ${processes.map((p) => p.processName).join(", ")}`);
+  }
+  return { A: a, B: b };
+}
+
+async function fetchLeaderboardPage(config, processId, page) {
+  const payload = await postForm(
+    "https://aistudio.baidu.com/studio/match/leaderboard",
+    { matchId: config.competitionId, processId, p: page },
+    config.requestHeaders
+  );
+  assertApiOk(payload, `leaderboard ${processId} page ${page}`);
+  return payload.result || {};
+}
+
+async function fetchBoardByProcess(config, process) {
+  const first = await fetchLeaderboardPage(config, process.id, 1);
+  const totalPage = Math.max(1, Number(first.totalPage || 1));
+  const pages = [first];
+  for (let page = 2; page <= totalPage; page += 1) {
+    pages.push(await fetchLeaderboardPage(config, process.id, page));
+  }
+
+  const byKey = new Map();
+  for (const page of pages) {
+    for (const item of page.data || []) {
+      const key = item.teamId || item.id || `${item.teamName}-${item.rank}`;
+      if (!byKey.has(key)) byKey.set(key, item);
+    }
+  }
+  const rows = normalizeRows([...byKey.values()]).sort((left, right) => left.rank - right.rank);
+  return {
+    rows,
+    source: `https://aistudio.baidu.com/studio/match/leaderboard?matchId=${config.competitionId}&processId=${process.id}`,
+    process
+  };
+}
+
+export async function fetchBoardsByPublicApi(config) {
+  const processes = await fetchProcessList(config);
+  const [a, b] = await Promise.all([
+    fetchBoardByProcess(config, processes.A),
+    fetchBoardByProcess(config, processes.B)
+  ]);
+  return { A: a, B: b };
+}
+
 export async function fetchBoardByUrls(config, boardKey) {
   const errors = [];
   for (const url of candidateUrls(config, boardKey)) {
@@ -221,13 +300,19 @@ export async function buildRankingData(config) {
   const deadlineAt = config.deadline || null;
   let boards;
   try {
-    const [a, b] = await Promise.all([fetchBoardByUrls(config, "A"), fetchBoardByUrls(config, "B")]);
-    boards = { A: a, B: b };
-  } catch (urlError) {
+    boards = await fetchBoardsByPublicApi(config);
+  } catch (publicApiError) {
     try {
-      boards = await fetchBoardsByBrowser(config);
-    } catch (browserError) {
-      throw new Error(`URL probe failed:\n${urlError.message}\n\nBrowser probe failed:\n${browserError.message}`);
+      const [a, b] = await Promise.all([fetchBoardByUrls(config, "A"), fetchBoardByUrls(config, "B")]);
+      boards = { A: a, B: b };
+    } catch (urlError) {
+      try {
+        boards = await fetchBoardsByBrowser(config);
+      } catch (browserError) {
+        throw new Error(
+          `Public API failed:\n${publicApiError.message}\n\nURL probe failed:\n${urlError.message}\n\nBrowser probe failed:\n${browserError.message}`
+        );
+      }
     }
   }
 

@@ -88,7 +88,7 @@ export function normalizeRows(payload) {
     .map((item, index) => ({
       rank: Number(field(item, ["rank", "ranking", "idx", "index", "place", "order", "sort"])) || index + 1,
       team: String(field(item, ["teamName", "team_name", "team", "name", "userName", "username", "nickName", "nickname"]) || "").trim(),
-      organization: String(field(item, ["organization", "org", "school", "company", "unit"]) || "").trim(),
+      organization: String(field(item, ["teamOrganization", "organization", "org", "school", "company", "unit"]) || "").trim(),
       raw: item
     }))
     .filter((row) => row.team);

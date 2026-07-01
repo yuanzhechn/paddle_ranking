@@ -31,7 +31,7 @@ function renderList(id, rows) {
   const el = $(id);
   el.innerHTML = "";
   if (!rows.length) {
-    el.innerHTML = "<li class=\"muted\">\u65e0</li>";
+    el.innerHTML = "<li class=\"muted\">无</li>";
     return;
   }
   for (const row of rows) {
@@ -45,12 +45,13 @@ function renderTable(rows) {
   const tbody = $("combined");
   tbody.innerHTML = "";
   if (!rows.length) {
-    tbody.innerHTML = "<tr><td colspan=\"5\" class=\"muted\">\u6682\u65e0\u5171\u540c\u56e2\u961f</td></tr>";
+    tbody.innerHTML = "<tr><td colspan=\"6\" class=\"muted\">暂无共同团队</td></tr>";
     return;
   }
-  for (const row of rows) {
+  for (const [index, row] of rows.entries()) {
     const tr = document.createElement("tr");
     tr.innerHTML = `
+      <td>${index + 1}</td>
       <td>${escapeHtml(row.team)}</td>
       <td>${escapeHtml(row.organization || "-")}</td>
       <td>${fmt(row.aScore)}</td>
@@ -76,11 +77,10 @@ function render(payload) {
   const interval = wrapper?.config?.refreshIntervalMinutes || 5;
   const finalDeadline = wrapper?.deadlineAt || payload.deadlineAt || deadlineAt;
   const isClosed = Boolean(wrapper?.isClosed || payload.isClosed || isPastDeadline(finalDeadline));
-  $("refresh").disabled = false;
   $("status").textContent = isClosed
-    ? `\u5df2\u4e8e\u5317\u4eac\u65f6\u95f4 ${localTime(finalDeadline)} \u622a\u6b62\uff0c\u6570\u636e\u505c\u6b62\u5237\u65b0`
-    : `GitHub Actions \u6bcf ${interval} \u5206\u949f\u66f4\u65b0\u4e00\u6b21\u6570\u636e\uff1b\u6309\u94ae\u4f1a\u91cd\u65b0\u8bfb\u53d6\u6700\u65b0\u7ed3\u679c\uff1b\u5317\u4eac\u65f6\u95f4 ${localTime(finalDeadline)} \u622a\u6b62`;
-  showError(payload.ok ? "" : `\u6293\u53d6\u5931\u8d25\uff1a${payload.error || "data/ranking.json unavailable"}`);
+    ? "数据已停止自动更新"
+    : `GitHub Actions 约每 ${interval} 分钟尝试更新数据，但执行时间由 GitHub 调度，可能会延迟`;
+  showError(payload.ok ? "" : `抓取失败：${payload.error || "data/ranking.json unavailable"}`);
 
   if (!wrapper) return;
   $("countA").textContent = wrapper.counts.A;
@@ -97,9 +97,8 @@ function render(payload) {
   }
 }
 
-async function load(manual = false) {
-  $("refresh").disabled = true;
-  $("status").textContent = manual ? "\u6b63\u5728\u91cd\u65b0\u8bfb\u53d6..." : "\u6b63\u5728\u8bfb\u53d6\u6570\u636e...";
+async function load() {
+  $("status").textContent = "正在读取数据...";
   try {
     const res = await fetch(`./data/ranking.json?t=${Date.now()}`, { cache: "no-store" });
     render(await res.json());
@@ -108,7 +107,6 @@ async function load(manual = false) {
   }
 }
 
-$("refresh").addEventListener("click", () => load(true));
 load();
 if (!isPastDeadline(deadlineAt)) {
   state.timer = setInterval(() => load(), 5 * 60 * 1000);

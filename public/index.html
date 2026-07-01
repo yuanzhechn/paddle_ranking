@@ -11,16 +11,15 @@
       <section class="topbar">
         <div>
           <h1>AI Studio AB榜加权排行</h1>
-          <p id="status">准备刷新</p>
+          <p id="status">正在读取数据...</p>
         </div>
-        <button id="refresh" type="button">刷新</button>
       </section>
 
       <section class="metrics">
         <div><span>A榜人数</span><strong id="countA">-</strong></div>
         <div><span>B榜人数</span><strong id="countB">-</strong></div>
         <div><span>共同参赛团队</span><strong id="countBoth">-</strong></div>
-        <div><span>刷新时间</span><strong id="refreshedAt">-</strong></div>
+        <div><span>数据时间</span><strong id="refreshedAt">-</strong></div>
       </section>
 
       <section id="error" class="error hidden"></section>
@@ -42,6 +41,7 @@
           <table>
             <thead>
               <tr>
+                <th>总分排名</th>
                 <th>参赛团队</th>
                 <th>所属组织</th>
                 <th>A榜赋分</th>

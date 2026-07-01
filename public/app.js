@@ -99,11 +99,20 @@ function render(payload) {
 
 async function load() {
   $("status").textContent = "正在读取数据...";
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 20_000);
   try {
-    const res = await fetch(`./data/ranking.json?t=${Date.now()}`, { cache: "no-store" });
+    const res = await fetch(`./data/ranking.json?t=${Date.now()}`, {
+      cache: "no-store",
+      signal: controller.signal
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     render(await res.json());
   } catch (error) {
-    render({ ok: false, error: error.message, deadlineAt, isClosed: isPastDeadline(deadlineAt) });
+    const message = error.name === "AbortError" ? "读取数据超时，请稍后刷新页面" : error.message;
+    render({ ok: false, error: message, deadlineAt, isClosed: isPastDeadline(deadlineAt) });
+  } finally {
+    clearTimeout(timeout);
   }
 }
 

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Studio AB榜加权排行</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="topbar">
+        <div>
+          <h1>AI Studio AB榜加权排行</h1>
+          <p id="status">准备刷新</p>
+        </div>
+        <button id="refresh" type="button">刷新</button>
+      </section>
+
+      <section class="metrics">
+        <div><span>A榜人数</span><strong id="countA">-</strong></div>
+        <div><span>B榜人数</span><strong id="countB">-</strong></div>
+        <div><span>共同参赛团队</span><strong id="countBoth">-</strong></div>
+        <div><span>刷新时间</span><strong id="refreshedAt">-</strong></div>
+      </section>
+
+      <section id="error" class="error hidden"></section>
+
+      <section class="diffs">
+        <div>
+          <h2>A榜有，B榜没有</h2>
+          <ul id="onlyA"></ul>
+        </div>
+        <div>
+          <h2>B榜有，A榜没有</h2>
+          <ul id="onlyB"></ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>AB榜加权总分</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>参赛团队</th>
+                <th>所属组织</th>
+                <th>A榜赋分</th>
+                <th>B榜赋分</th>
+                <th>总分</th>
+              </tr>
+            </thead>
+            <tbody id="combined"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

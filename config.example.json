@@ -1,0 +1,20 @@
+{
+  "competitionId": 1468,
+  "pageUrl": "https://aistudio.baidu.com/competition/detail/1468/0/leaderboard",
+  "refreshIntervalMinutes": 5,
+  "deadline": "2026-07-06T12:00:00+08:00",
+  "leaderboards": {
+    "A": {
+      "name": "A board",
+      "urls": []
+    },
+    "B": {
+      "name": "B board",
+      "urls": []
+    }
+  },
+  "requestHeaders": {
+    "referer": "https://aistudio.baidu.com/competition/detail/1468/0/leaderboard",
+    "user-agent": "Mozilla/5.0"
+  }
+}

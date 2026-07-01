@@ -1,0 +1,13 @@
+{
+  "name": "paddle-ranking",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-ranking.js",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

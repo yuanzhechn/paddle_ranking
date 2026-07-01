@@ -1,0 +1,176 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+  background: #f6f7fb;
+  color: #172033;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  width: min(1180px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+p,
+.muted {
+  color: #667085;
+}
+
+button {
+  border: 0;
+  border-radius: 6px;
+  background: #245bdb;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  min-width: 92px;
+  height: 40px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: .55;
+  cursor: wait;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.metrics div,
+.diffs > div,
+section {
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+}
+
+.metrics div {
+  padding: 16px;
+}
+
+.metrics span {
+  display: block;
+  color: #667085;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.metrics strong {
+  font-size: 20px;
+}
+
+.error {
+  margin-bottom: 18px;
+  padding: 14px 16px;
+  border-color: #fecdca;
+  color: #b42318;
+  white-space: pre-wrap;
+}
+
+.hidden {
+  display: none;
+}
+
+.diffs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.diffs > div,
+section {
+  padding: 18px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+  max-height: 240px;
+  overflow: auto;
+}
+
+li + li {
+  margin-top: 8px;
+}
+
+.table-wrap {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #eaecf0;
+  padding: 12px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  color: #475467;
+  font-size: 13px;
+  background: #f9fafb;
+}
+
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5),
+th:nth-child(3),
+th:nth-child(4),
+th:nth-child(5) {
+  text-align: right;
+}
+
+@media (max-width: 760px) {
+  .topbar,
+  .diffs {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

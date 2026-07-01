@@ -1,0 +1,2194 @@
+{
+  "ok": true,
+  "data": {
+    "generatedAt": "2026-07-01T17:29:47.098Z",
+    "deadlineAt": "2026-07-06T12:00:00+08:00",
+    "isClosed": false,
+    "config": {
+      "competitionId": 1468,
+      "refreshIntervalMinutes": 5,
+      "deadline": "2026-07-06T12:00:00+08:00"
+    },
+    "sources": {
+      "A": "https://aistudio.baidu.com/studio/match/leaderboard",
+      "B": "https://aistudio.baidu.com/studio/match/leaderboard"
+    },
+    "counts": {
+      "A": 21,
+      "B": 21
+    },
+    "boards": {
+      "A": [
+        {
+          "rank": 1,
+          "team": "Paroxetine的团队",
+          "organization": "",
+          "raw": {
+            "id": 674947,
+            "submitName": "",
+            "teamName": "Paroxetine的团队",
+            "version": "",
+            "createTime": "2026-07-01 21:35:35",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 22:15:10",
+            "userId": 18630699,
+            "score": 0.976375,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782915309585,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 327485,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.97637"
+              },
+              {
+                "F1 Score": "0.97637"
+              },
+              {
+                "FPS": "31.82"
+              }
+            ],
+            "rank": 1,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "其他",
+            "submitTime": "2026-07-01 21:35"
+          }
+        },
+        {
+          "rank": 2,
+          "team": "队不队",
+          "organization": "",
+          "raw": {
+            "id": 674989,
+            "submitName": "",
+            "teamName": "队不队",
+            "version": "",
+            "createTime": "2026-07-01 23:47:44",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-02 00:25:46",
+            "userId": 19997761,
+            "score": 0.974199,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782923145819,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 327457,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.9742"
+              },
+              {
+                "F1 Score": "0.9742"
+              },
+              {
+                "FPS": "30.4"
+              }
+            ],
+            "rank": 2,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "苏州工业园区职业技术学院",
+            "submitTime": "2026-07-01 23:47"
+          }
+        },
+        {
+          "rank": 3,
+          "team": "三口一个机器狗",
+          "organization": "",
+          "raw": {
+            "id": 674839,
+            "submitName": "",
+            "teamName": "三口一个机器狗",
+            "version": "",
+            "createTime": "2026-07-01 15:36:23",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 16:00:24",
+            "userId": 16947194,
+            "score": 0.964026,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782892824150,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322016,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.96403"
+              },
+              {
+                "F1 Score": "0.96403"
+              },
+              {
+                "FPS": "47.8"
+              }
+            ],
+            "rank": 3,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "北京信息科技大学",
+            "submitTime": "2026-07-01 15:36"
+          }
+        },
+        {
+          "rank": 4,
+          "team": "菲比啾比",
+          "organization": "",
+          "raw": {
+            "id": 674704,
+            "submitName": "",
+            "teamName": "菲比啾比",
+            "version": "",
+            "createTime": "2026-07-01 00:03:13",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 00:42:24",
+            "userId": 16567192,
+            "score": 0.952166,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782837743627,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 321816,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.95217"
+              },
+              {
+                "F1 Score": "0.95217"
+              },
+              {
+                "FPS": "31.58"
+              }
+            ],
+            "rank": 4,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "吉林化工学院",
+            "submitTime": "2026-07-01 00:03"
+          }
+        },
+        {
+          "rank": 5,
+          "team": "不吃香菜",
+          "organization": "",
+          "raw": {
+            "id": 674413,
+            "submitName": "",
+            "teamName": "不吃香菜",
+            "version": "",
+            "createTime": "2026-06-29 23:57:30",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-30 00:35:46",
+            "userId": 19596142,
+            "score": 0.951641,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782750945828,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 320921,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.95164"
+              },
+              {
+                "F1 Score": "0.95164"
+              },
+              {
+                "FPS": "25.05"
+              }
+            ],
+            "rank": 5,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "广东轻工职业技术大学",
+            "submitTime": "2026-06-29 23:57"
+          }
+        },
+        {
+          "rank": 6,
+          "team": "AAA下沙top金牌训狗师",
+          "organization": "",
+          "raw": {
+            "id": 674810,
+            "submitName": "",
+            "teamName": "AAA下沙top金牌训狗师",
+            "version": "",
+            "createTime": "2026-07-01 13:38:07",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 14:43:45",
+            "userId": 19955288,
+            "score": 0.949983,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782888225489,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 325125,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.94998"
+              },
+              {
+                "F1 Score": "0.94998"
+              },
+              {
+                "FPS": "42.45"
+              }
+            ],
+            "rank": 6,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "浙江工商大学",
+            "submitTime": "2026-07-01 13:38"
+          }
+        },
+        {
+          "rank": 7,
+          "team": "FSOutCast",
+          "organization": "",
+          "raw": {
+            "id": 675003,
+            "submitName": "",
+            "teamName": "FSOutCast",
+            "version": "",
+            "createTime": "2026-07-02 00:10:43",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-02 00:57:46",
+            "userId": 20014863,
+            "score": 0.946035,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782925065647,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 327841,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.94603"
+              },
+              {
+                "F1 Score": "0.94603"
+              },
+              {
+                "FPS": "70.87"
+              }
+            ],
+            "rank": 7,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "常州大学",
+            "submitTime": "2026-07-02 00:10"
+          }
+        },
+        {
+          "rank": 8,
+          "team": "阿基米",
+          "organization": "",
+          "raw": {
+            "id": 674316,
+            "submitName": "",
+            "teamName": "阿基米",
+            "version": "",
+            "createTime": "2026-06-29 18:11:21",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-29 19:01:09",
+            "userId": 19938197,
+            "score": 0.941442,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782730868927,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 324186,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.94144"
+              },
+              {
+                "F1 Score": "0.94144"
+              },
+              {
+                "FPS": "72.32"
+              }
+            ],
+            "rank": 8,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "吉林大学",
+            "submitTime": "2026-06-29 18:11"
+          }
+        },
+        {
+          "rank": 9,
+          "team": "碱基互补队",
+          "organization": "",
+          "raw": {
+            "id": 674705,
+            "submitName": "",
+            "teamName": "碱基互补队",
+            "version": "",
+            "createTime": "2026-07-01 00:03:15",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 00:37:09",
+            "userId": 19852213,
+            "score": 0.941033,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782837429113,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322013,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.94103"
+              },
+              {
+                "F1 Score": "0.94103"
+              },
+              {
+                "FPS": "59.69"
+              }
+            ],
+            "rank": 9,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "河海大学",
+            "submitTime": "2026-07-01 00:03"
+          }
+        },
+        {
+          "rank": 10,
+          "team": "Comliv's Inspiration",
+          "organization": "",
+          "raw": {
+            "id": 674737,
+            "submitName": "",
+            "teamName": "Comliv's Inspiration",
+            "version": "",
+            "createTime": "2026-07-01 03:28:58",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 04:01:09",
+            "userId": 19955788,
+            "score": 0.938276,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782849668555,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 325132,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.93828"
+              },
+              {
+                "F1 Score": "0.93828"
+              },
+              {
+                "FPS": "40.16"
+              }
+            ],
+            "rank": 10,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "天津大学",
+            "submitTime": "2026-07-01 03:28"
+          }
+        },
+        {
+          "rank": 11,
+          "team": "zawdcxs画个圈圈诅咒你",
+          "organization": "",
+          "raw": {
+            "id": 673691,
+            "submitName": "",
+            "teamName": "zawdcxs画个圈圈诅咒你",
+            "version": "",
+            "createTime": "2026-06-28 00:01:31",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-28 00:35:10",
+            "userId": 19659378,
+            "score": 0.937759,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782578109968,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 320693,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.93776"
+              },
+              {
+                "F1 Score": "0.93776"
+              },
+              {
+                "FPS": "30.36"
+              }
+            ],
+            "rank": 11,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "深圳信息职业技术学院",
+            "submitTime": "2026-06-28 00:01"
+          }
+        },
+        {
+          "rank": 12,
+          "team": "拍兜拍逗",
+          "organization": "",
+          "raw": {
+            "id": 674736,
+            "submitName": "",
+            "teamName": "拍兜拍逗",
+            "version": "",
+            "createTime": "2026-07-01 02:39:59",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 03:12:23",
+            "userId": 19878773,
+            "score": 0.937586,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782846743191,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322128,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.93759"
+              },
+              {
+                "F1 Score": "0.93759"
+              },
+              {
+                "FPS": "39.02"
+              }
+            ],
+            "rank": 12,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "河海大学",
+            "submitTime": "2026-07-01 02:39"
+          }
+        },
+        {
+          "rank": 13,
+          "team": "我的刀盾",
+          "organization": "",
+          "raw": {
+            "id": 674968,
+            "submitName": "",
+            "teamName": "我的刀盾",
+            "version": "",
+            "createTime": "2026-07-01 22:41:08",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 23:16:24",
+            "userId": 6001303,
+            "score": 0.93069,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782918983508,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322796,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.93069"
+              },
+              {
+                "F1 Score": "0.93069"
+              },
+              {
+                "FPS": "53.72"
+              }
+            ],
+            "rank": 13,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "西南交通大学",
+            "submitTime": "2026-07-01 22:41"
+          }
+        },
+        {
+          "rank": 14,
+          "team": "爱上雷神",
+          "organization": "",
+          "raw": {
+            "id": 674342,
+            "submitName": "",
+            "teamName": "爱上雷神",
+            "version": "",
+            "createTime": "2026-06-29 20:06:15",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-29 20:39:09",
+            "userId": 19878767,
+            "score": 0.918276,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782736749268,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 323814,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91828"
+              },
+              {
+                "F1 Score": "0.91828"
+              },
+              {
+                "FPS": "43.79"
+              }
+            ],
+            "rank": 14,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "中国科学技术大学",
+            "submitTime": "2026-06-29 20:06"
+          }
+        },
+        {
+          "rank": 15,
+          "team": "Greg的团队",
+          "organization": "",
+          "raw": {
+            "id": 674891,
+            "submitName": "",
+            "teamName": "Greg的团队",
+            "version": "",
+            "createTime": "2026-07-01 17:56:11",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 20:25:46",
+            "userId": 19795987,
+            "score": 0.915231,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782908745857,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 321448,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91523"
+              },
+              {
+                "F1 Score": "0.91523"
+              },
+              {
+                "FPS": "27.47"
+              }
+            ],
+            "rank": 15,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "潍坊科技学院",
+            "submitTime": "2026-07-01 17:56"
+          }
+        },
+        {
+          "rank": 16,
+          "team": "揉揉揉揉333的团队",
+          "organization": "",
+          "raw": {
+            "id": 674256,
+            "submitName": "",
+            "teamName": "揉揉揉揉333的团队",
+            "version": "",
+            "createTime": "2026-06-29 14:11:54",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-29 15:43:09",
+            "userId": 11802047,
+            "score": 0.915088,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782718989153,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 328203,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91509"
+              },
+              {
+                "F1 Score": "0.91509"
+              },
+              {
+                "FPS": "32.16"
+              }
+            ],
+            "rank": 16,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "中北大学",
+            "submitTime": "2026-06-29 14:11"
+          }
+        },
+        {
+          "rank": 17,
+          "team": "鼠鼠队",
+          "organization": "",
+          "raw": {
+            "id": 674464,
+            "submitName": "",
+            "teamName": "鼠鼠队",
+            "version": "",
+            "createTime": "2026-06-30 08:50:28",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-30 09:27:09",
+            "userId": 11754825,
+            "score": 0.914647,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782782829195,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 320718,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91465"
+              },
+              {
+                "F1 Score": "0.91465"
+              },
+              {
+                "FPS": "29.45"
+              }
+            ],
+            "rank": 17,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "中国矿业大学",
+            "submitTime": "2026-06-30 08:50"
+          }
+        },
+        {
+          "rank": 18,
+          "team": "QuadRescue",
+          "organization": "",
+          "raw": {
+            "id": 674751,
+            "submitName": "",
+            "teamName": "QuadRescue",
+            "version": "",
+            "createTime": "2026-07-01 09:17:08",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 10:13:09",
+            "userId": 19729014,
+            "score": 0.912923,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782871988610,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 324422,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91292"
+              },
+              {
+                "F1 Score": "0.91292"
+              },
+              {
+                "FPS": "38.6"
+              }
+            ],
+            "rank": 18,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "四川大学",
+            "submitTime": "2026-07-01 09:17"
+          }
+        },
+        {
+          "rank": 19,
+          "team": "括号中的ICS",
+          "organization": "",
+          "raw": {
+            "id": 674670,
+            "submitName": "",
+            "teamName": "括号中的ICS",
+            "version": "",
+            "createTime": "2026-06-30 22:45:15",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-30 23:25:09",
+            "userId": 4068339,
+            "score": 0.906141,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782833108863,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 321749,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.90614"
+              },
+              {
+                "F1 Score": "0.90614"
+              },
+              {
+                "FPS": "24.33"
+              }
+            ],
+            "rank": 19,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "齐鲁工业大学",
+            "submitTime": "2026-06-30 22:45"
+          }
+        },
+        {
+          "rank": 20,
+          "team": "宇宙超级无敌大",
+          "organization": "",
+          "raw": {
+            "id": 674791,
+            "submitName": "",
+            "teamName": "宇宙超级无敌大",
+            "version": "",
+            "createTime": "2026-07-01 12:26:53",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 13:15:09",
+            "userId": 9727396,
+            "score": 0.904745,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782882908656,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322922,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.90475"
+              },
+              {
+                "F1 Score": "0.90475"
+              },
+              {
+                "FPS": "53.37"
+              }
+            ],
+            "rank": 20,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "绍兴职业技术学院",
+            "submitTime": "2026-07-01 12:26"
+          }
+        },
+        {
+          "rank": 21,
+          "team": "池千芫的团队",
+          "organization": "",
+          "raw": {
+            "id": 674697,
+            "submitName": "",
+            "teamName": "池千芫的团队",
+            "version": "",
+            "createTime": "2026-06-30 23:56:20",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 00:45:09",
+            "userId": 20054252,
+            "score": 0.902214,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782837908900,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 328448,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.90221"
+              },
+              {
+                "F1 Score": "0.90221"
+              },
+              {
+                "FPS": "31.15"
+              }
+            ],
+            "rank": 21,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "绍兴职业技术学院",
+            "submitTime": "2026-06-30 23:56"
+          }
+        }
+      ],
+      "B": [
+        {
+          "rank": 1,
+          "team": "Paroxetine的团队",
+          "organization": "",
+          "raw": {
+            "id": 674947,
+            "submitName": "",
+            "teamName": "Paroxetine的团队",
+            "version": "",
+            "createTime": "2026-07-01 21:35:35",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 22:15:10",
+            "userId": 18630699,
+            "score": 0.976375,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782915309585,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 327485,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.97637"
+              },
+              {
+                "F1 Score": "0.97637"
+              },
+              {
+                "FPS": "31.82"
+              }
+            ],
+            "rank": 1,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "其他",
+            "submitTime": "2026-07-01 21:35"
+          }
+        },
+        {
+          "rank": 2,
+          "team": "队不队",
+          "organization": "",
+          "raw": {
+            "id": 674989,
+            "submitName": "",
+            "teamName": "队不队",
+            "version": "",
+            "createTime": "2026-07-01 23:47:44",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-02 00:25:46",
+            "userId": 19997761,
+            "score": 0.974199,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782923145819,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 327457,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.9742"
+              },
+              {
+                "F1 Score": "0.9742"
+              },
+              {
+                "FPS": "30.4"
+              }
+            ],
+            "rank": 2,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "苏州工业园区职业技术学院",
+            "submitTime": "2026-07-01 23:47"
+          }
+        },
+        {
+          "rank": 3,
+          "team": "三口一个机器狗",
+          "organization": "",
+          "raw": {
+            "id": 674839,
+            "submitName": "",
+            "teamName": "三口一个机器狗",
+            "version": "",
+            "createTime": "2026-07-01 15:36:23",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 16:00:24",
+            "userId": 16947194,
+            "score": 0.964026,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782892824150,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322016,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.96403"
+              },
+              {
+                "F1 Score": "0.96403"
+              },
+              {
+                "FPS": "47.8"
+              }
+            ],
+            "rank": 3,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "北京信息科技大学",
+            "submitTime": "2026-07-01 15:36"
+          }
+        },
+        {
+          "rank": 4,
+          "team": "菲比啾比",
+          "organization": "",
+          "raw": {
+            "id": 674704,
+            "submitName": "",
+            "teamName": "菲比啾比",
+            "version": "",
+            "createTime": "2026-07-01 00:03:13",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 00:42:24",
+            "userId": 16567192,
+            "score": 0.952166,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782837743627,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 321816,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.95217"
+              },
+              {
+                "F1 Score": "0.95217"
+              },
+              {
+                "FPS": "31.58"
+              }
+            ],
+            "rank": 4,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "吉林化工学院",
+            "submitTime": "2026-07-01 00:03"
+          }
+        },
+        {
+          "rank": 5,
+          "team": "不吃香菜",
+          "organization": "",
+          "raw": {
+            "id": 674413,
+            "submitName": "",
+            "teamName": "不吃香菜",
+            "version": "",
+            "createTime": "2026-06-29 23:57:30",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-30 00:35:46",
+            "userId": 19596142,
+            "score": 0.951641,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782750945828,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 320921,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.95164"
+              },
+              {
+                "F1 Score": "0.95164"
+              },
+              {
+                "FPS": "25.05"
+              }
+            ],
+            "rank": 5,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "广东轻工职业技术大学",
+            "submitTime": "2026-06-29 23:57"
+          }
+        },
+        {
+          "rank": 6,
+          "team": "AAA下沙top金牌训狗师",
+          "organization": "",
+          "raw": {
+            "id": 674810,
+            "submitName": "",
+            "teamName": "AAA下沙top金牌训狗师",
+            "version": "",
+            "createTime": "2026-07-01 13:38:07",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 14:43:45",
+            "userId": 19955288,
+            "score": 0.949983,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782888225489,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 325125,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.94998"
+              },
+              {
+                "F1 Score": "0.94998"
+              },
+              {
+                "FPS": "42.45"
+              }
+            ],
+            "rank": 6,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "浙江工商大学",
+            "submitTime": "2026-07-01 13:38"
+          }
+        },
+        {
+          "rank": 7,
+          "team": "FSOutCast",
+          "organization": "",
+          "raw": {
+            "id": 675003,
+            "submitName": "",
+            "teamName": "FSOutCast",
+            "version": "",
+            "createTime": "2026-07-02 00:10:43",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-02 00:57:46",
+            "userId": 20014863,
+            "score": 0.946035,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782925065647,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 327841,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.94603"
+              },
+              {
+                "F1 Score": "0.94603"
+              },
+              {
+                "FPS": "70.87"
+              }
+            ],
+            "rank": 7,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "常州大学",
+            "submitTime": "2026-07-02 00:10"
+          }
+        },
+        {
+          "rank": 8,
+          "team": "阿基米",
+          "organization": "",
+          "raw": {
+            "id": 674316,
+            "submitName": "",
+            "teamName": "阿基米",
+            "version": "",
+            "createTime": "2026-06-29 18:11:21",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-29 19:01:09",
+            "userId": 19938197,
+            "score": 0.941442,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782730868927,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 324186,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.94144"
+              },
+              {
+                "F1 Score": "0.94144"
+              },
+              {
+                "FPS": "72.32"
+              }
+            ],
+            "rank": 8,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "吉林大学",
+            "submitTime": "2026-06-29 18:11"
+          }
+        },
+        {
+          "rank": 9,
+          "team": "碱基互补队",
+          "organization": "",
+          "raw": {
+            "id": 674705,
+            "submitName": "",
+            "teamName": "碱基互补队",
+            "version": "",
+            "createTime": "2026-07-01 00:03:15",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 00:37:09",
+            "userId": 19852213,
+            "score": 0.941033,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782837429113,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322013,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.94103"
+              },
+              {
+                "F1 Score": "0.94103"
+              },
+              {
+                "FPS": "59.69"
+              }
+            ],
+            "rank": 9,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "河海大学",
+            "submitTime": "2026-07-01 00:03"
+          }
+        },
+        {
+          "rank": 10,
+          "team": "Comliv's Inspiration",
+          "organization": "",
+          "raw": {
+            "id": 674737,
+            "submitName": "",
+            "teamName": "Comliv's Inspiration",
+            "version": "",
+            "createTime": "2026-07-01 03:28:58",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 04:01:09",
+            "userId": 19955788,
+            "score": 0.938276,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782849668555,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 325132,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.93828"
+              },
+              {
+                "F1 Score": "0.93828"
+              },
+              {
+                "FPS": "40.16"
+              }
+            ],
+            "rank": 10,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "天津大学",
+            "submitTime": "2026-07-01 03:28"
+          }
+        },
+        {
+          "rank": 11,
+          "team": "zawdcxs画个圈圈诅咒你",
+          "organization": "",
+          "raw": {
+            "id": 673691,
+            "submitName": "",
+            "teamName": "zawdcxs画个圈圈诅咒你",
+            "version": "",
+            "createTime": "2026-06-28 00:01:31",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-28 00:35:10",
+            "userId": 19659378,
+            "score": 0.937759,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782578109968,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 320693,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.93776"
+              },
+              {
+                "F1 Score": "0.93776"
+              },
+              {
+                "FPS": "30.36"
+              }
+            ],
+            "rank": 11,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "深圳信息职业技术学院",
+            "submitTime": "2026-06-28 00:01"
+          }
+        },
+        {
+          "rank": 12,
+          "team": "拍兜拍逗",
+          "organization": "",
+          "raw": {
+            "id": 674736,
+            "submitName": "",
+            "teamName": "拍兜拍逗",
+            "version": "",
+            "createTime": "2026-07-01 02:39:59",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 03:12:23",
+            "userId": 19878773,
+            "score": 0.937586,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782846743191,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322128,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.93759"
+              },
+              {
+                "F1 Score": "0.93759"
+              },
+              {
+                "FPS": "39.02"
+              }
+            ],
+            "rank": 12,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "河海大学",
+            "submitTime": "2026-07-01 02:39"
+          }
+        },
+        {
+          "rank": 13,
+          "team": "我的刀盾",
+          "organization": "",
+          "raw": {
+            "id": 674968,
+            "submitName": "",
+            "teamName": "我的刀盾",
+            "version": "",
+            "createTime": "2026-07-01 22:41:08",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 23:16:24",
+            "userId": 6001303,
+            "score": 0.93069,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782918983508,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322796,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.93069"
+              },
+              {
+                "F1 Score": "0.93069"
+              },
+              {
+                "FPS": "53.72"
+              }
+            ],
+            "rank": 13,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "西南交通大学",
+            "submitTime": "2026-07-01 22:41"
+          }
+        },
+        {
+          "rank": 14,
+          "team": "爱上雷神",
+          "organization": "",
+          "raw": {
+            "id": 674342,
+            "submitName": "",
+            "teamName": "爱上雷神",
+            "version": "",
+            "createTime": "2026-06-29 20:06:15",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-29 20:39:09",
+            "userId": 19878767,
+            "score": 0.918276,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782736749268,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 323814,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91828"
+              },
+              {
+                "F1 Score": "0.91828"
+              },
+              {
+                "FPS": "43.79"
+              }
+            ],
+            "rank": 14,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "中国科学技术大学",
+            "submitTime": "2026-06-29 20:06"
+          }
+        },
+        {
+          "rank": 15,
+          "team": "Greg的团队",
+          "organization": "",
+          "raw": {
+            "id": 674891,
+            "submitName": "",
+            "teamName": "Greg的团队",
+            "version": "",
+            "createTime": "2026-07-01 17:56:11",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 20:25:46",
+            "userId": 19795987,
+            "score": 0.915231,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782908745857,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 321448,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91523"
+              },
+              {
+                "F1 Score": "0.91523"
+              },
+              {
+                "FPS": "27.47"
+              }
+            ],
+            "rank": 15,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "潍坊科技学院",
+            "submitTime": "2026-07-01 17:56"
+          }
+        },
+        {
+          "rank": 16,
+          "team": "揉揉揉揉333的团队",
+          "organization": "",
+          "raw": {
+            "id": 674256,
+            "submitName": "",
+            "teamName": "揉揉揉揉333的团队",
+            "version": "",
+            "createTime": "2026-06-29 14:11:54",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-29 15:43:09",
+            "userId": 11802047,
+            "score": 0.915088,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782718989153,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 328203,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91509"
+              },
+              {
+                "F1 Score": "0.91509"
+              },
+              {
+                "FPS": "32.16"
+              }
+            ],
+            "rank": 16,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "中北大学",
+            "submitTime": "2026-06-29 14:11"
+          }
+        },
+        {
+          "rank": 17,
+          "team": "鼠鼠队",
+          "organization": "",
+          "raw": {
+            "id": 674464,
+            "submitName": "",
+            "teamName": "鼠鼠队",
+            "version": "",
+            "createTime": "2026-06-30 08:50:28",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-30 09:27:09",
+            "userId": 11754825,
+            "score": 0.914647,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782782829195,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 320718,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91465"
+              },
+              {
+                "F1 Score": "0.91465"
+              },
+              {
+                "FPS": "29.45"
+              }
+            ],
+            "rank": 17,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "中国矿业大学",
+            "submitTime": "2026-06-30 08:50"
+          }
+        },
+        {
+          "rank": 18,
+          "team": "QuadRescue",
+          "organization": "",
+          "raw": {
+            "id": 674751,
+            "submitName": "",
+            "teamName": "QuadRescue",
+            "version": "",
+            "createTime": "2026-07-01 09:17:08",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 10:13:09",
+            "userId": 19729014,
+            "score": 0.912923,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782871988610,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 324422,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.91292"
+              },
+              {
+                "F1 Score": "0.91292"
+              },
+              {
+                "FPS": "38.6"
+              }
+            ],
+            "rank": 18,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "四川大学",
+            "submitTime": "2026-07-01 09:17"
+          }
+        },
+        {
+          "rank": 19,
+          "team": "括号中的ICS",
+          "organization": "",
+          "raw": {
+            "id": 674670,
+            "submitName": "",
+            "teamName": "括号中的ICS",
+            "version": "",
+            "createTime": "2026-06-30 22:45:15",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-06-30 23:25:09",
+            "userId": 4068339,
+            "score": 0.906141,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782833108863,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 321749,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.90614"
+              },
+              {
+                "F1 Score": "0.90614"
+              },
+              {
+                "FPS": "24.33"
+              }
+            ],
+            "rank": 19,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "齐鲁工业大学",
+            "submitTime": "2026-06-30 22:45"
+          }
+        },
+        {
+          "rank": 20,
+          "team": "宇宙超级无敌大",
+          "organization": "",
+          "raw": {
+            "id": 674791,
+            "submitName": "",
+            "teamName": "宇宙超级无敌大",
+            "version": "",
+            "createTime": "2026-07-01 12:26:53",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 13:15:09",
+            "userId": 9727396,
+            "score": 0.904745,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782882908656,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 322922,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.90475"
+              },
+              {
+                "F1 Score": "0.90475"
+              },
+              {
+                "FPS": "53.37"
+              }
+            ],
+            "rank": 20,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "绍兴职业技术学院",
+            "submitTime": "2026-07-01 12:26"
+          }
+        },
+        {
+          "rank": 21,
+          "team": "池千芫的团队",
+          "organization": "",
+          "raw": {
+            "id": 674697,
+            "submitName": "",
+            "teamName": "池千芫的团队",
+            "version": "",
+            "createTime": "2026-06-30 23:56:20",
+            "statusCode": 3,
+            "lastUpdateTime": "2026-07-01 00:45:09",
+            "userId": 20054252,
+            "score": 0.902214,
+            "bosFileType": 1,
+            "startTime": 0,
+            "endTime": 1782837908900,
+            "processId": 5872,
+            "anonymous": false,
+            "reference": "",
+            "introduction": "",
+            "projectId": 0,
+            "matchId": 1468,
+            "teamId": 328448,
+            "errorMsg": "已完成",
+            "isHTML": 1,
+            "environmentId": 2,
+            "index": [
+              {
+                "score": "0.90221"
+              },
+              {
+                "F1 Score": "0.90221"
+              },
+              {
+                "FPS": "31.15"
+              }
+            ],
+            "rank": 21,
+            "userName": "",
+            "nickname": "",
+            "userAbs": "",
+            "portrait": "",
+            "teamOrganization": "绍兴职业技术学院",
+            "submitTime": "2026-06-30 23:56"
+          }
+        }
+      ]
+    },
+    "onlyA": [],
+    "onlyB": [],
+    "combined": [
+      {
+        "team": "Paroxetine的团队",
+        "organization": "",
+        "aScore": 100,
+        "bScore": 100,
+        "total": 100,
+        "aRank": 1,
+        "bRank": 1
+      },
+      {
+        "team": "队不队",
+        "organization": "",
+        "aScore": 95,
+        "bScore": 95,
+        "total": 95,
+        "aRank": 2,
+        "bRank": 2
+      },
+      {
+        "team": "三口一个机器狗",
+        "organization": "",
+        "aScore": 90,
+        "bScore": 90,
+        "total": 90,
+        "aRank": 3,
+        "bRank": 3
+      },
+      {
+        "team": "菲比啾比",
+        "organization": "",
+        "aScore": 85,
+        "bScore": 85,
+        "total": 85,
+        "aRank": 4,
+        "bRank": 4
+      },
+      {
+        "team": "不吃香菜",
+        "organization": "",
+        "aScore": 80,
+        "bScore": 80,
+        "total": 80,
+        "aRank": 5,
+        "bRank": 5
+      },
+      {
+        "team": "AAA下沙top金牌训狗师",
+        "organization": "",
+        "aScore": 75,
+        "bScore": 75,
+        "total": 75,
+        "aRank": 6,
+        "bRank": 6
+      },
+      {
+        "team": "FSOutCast",
+        "organization": "",
+        "aScore": 70,
+        "bScore": 70,
+        "total": 70,
+        "aRank": 7,
+        "bRank": 7
+      },
+      {
+        "team": "阿基米",
+        "organization": "",
+        "aScore": 65,
+        "bScore": 65,
+        "total": 65,
+        "aRank": 8,
+        "bRank": 8
+      },
+      {
+        "team": "碱基互补队",
+        "organization": "",
+        "aScore": 60,
+        "bScore": 60,
+        "total": 60,
+        "aRank": 9,
+        "bRank": 9
+      },
+      {
+        "team": "Comliv's Inspiration",
+        "organization": "",
+        "aScore": 55.00000000000001,
+        "bScore": 55.00000000000001,
+        "total": 55,
+        "aRank": 10,
+        "bRank": 10
+      },
+      {
+        "team": "zawdcxs画个圈圈诅咒你",
+        "organization": "",
+        "aScore": 50,
+        "bScore": 50,
+        "total": 50,
+        "aRank": 11,
+        "bRank": 11
+      },
+      {
+        "team": "拍兜拍逗",
+        "organization": "",
+        "aScore": 45,
+        "bScore": 45,
+        "total": 45,
+        "aRank": 12,
+        "bRank": 12
+      },
+      {
+        "team": "我的刀盾",
+        "organization": "",
+        "aScore": 40,
+        "bScore": 40,
+        "total": 40,
+        "aRank": 13,
+        "bRank": 13
+      },
+      {
+        "team": "爱上雷神",
+        "organization": "",
+        "aScore": 35,
+        "bScore": 35,
+        "total": 35,
+        "aRank": 14,
+        "bRank": 14
+      },
+      {
+        "team": "Greg的团队",
+        "organization": "",
+        "aScore": 30,
+        "bScore": 30,
+        "total": 30,
+        "aRank": 15,
+        "bRank": 15
+      },
+      {
+        "team": "揉揉揉揉333的团队",
+        "organization": "",
+        "aScore": 25,
+        "bScore": 25,
+        "total": 25,
+        "aRank": 16,
+        "bRank": 16
+      },
+      {
+        "team": "鼠鼠队",
+        "organization": "",
+        "aScore": 20,
+        "bScore": 20,
+        "total": 20,
+        "aRank": 17,
+        "bRank": 17
+      },
+      {
+        "team": "QuadRescue",
+        "organization": "",
+        "aScore": 15,
+        "bScore": 15,
+        "total": 15,
+        "aRank": 18,
+        "bRank": 18
+      },
+      {
+        "team": "括号中的ICS",
+        "organization": "",
+        "aScore": 10,
+        "bScore": 10,
+        "total": 10,
+        "aRank": 19,
+        "bRank": 19
+      },
+      {
+        "team": "宇宙超级无敌大",
+        "organization": "",
+        "aScore": 5,
+        "bScore": 5,
+        "total": 5,
+        "aRank": 20,
+        "bRank": 20
+      },
+      {
+        "team": "池千芫的团队",
+        "organization": "",
+        "aScore": 0,
+        "bScore": 0,
+        "total": 0,
+        "aRank": 21,
+        "bRank": 21
+      }
+    ]
+  }
+}
